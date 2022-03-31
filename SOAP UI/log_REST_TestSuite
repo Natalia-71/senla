@@ -1,0 +1,7 @@
+TestCase [https://reqres.in TestSuite] started at 2022-04-01 00:40:34.410
+Step 1 [Register User] OK: took 102 ms
+Step 2 [Login User] OK: took 103 ms
+Step 3 [List Users] OK: took 61 ms
+Step 4 [List Resource] OK: took 65 ms
+TestCase [https://reqres.in TestSuite] finished with status [FINISHED], time taken = 389
+Step 5 [Delayed Response] OK: took 58 ms
