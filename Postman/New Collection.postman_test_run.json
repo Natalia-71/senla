@@ -1,0 +1,203 @@
+{
+	"id": "3a3782e0-bed1-4c1c-8b72-df308565d5c8",
+	"name": "New Collection",
+	"timestamp": "2022-03-31T02:39:44.709Z",
+	"collection_id": "20287810-1b1c421a-d8cb-471f-a82a-9ffb5d159cfb",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 9,
+	"totalFail": 1,
+	"results": [
+		{
+			"id": "88e19aa7-0ec9-4875-a744-098ab23ee42e",
+			"name": "Register User",
+			"url": "https://reqres.in/api/register",
+			"time": 296,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body check": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body check": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				296
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body check": false
+				}
+			]
+		},
+		{
+			"id": "dcdce9f4-a95f-4bcc-b127-f86c386ffdc2",
+			"name": "Get User",
+			"url": "https://reqres.in/api/users/2",
+			"time": 74,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body check": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body check": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				74
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body check": true
+				}
+			]
+		},
+		{
+			"id": "0ad4d187-2e3f-4c0f-a512-f292a6825373",
+			"name": "Login Unsuccess",
+			"url": "https://reqres.in/api/login",
+			"time": 99,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Ошибка авторизации": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Ошибка авторизации": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				99
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Ошибка авторизации": true
+				}
+			]
+		},
+		{
+			"id": "187e6154-78d8-4dda-958c-cab462aa1f1e",
+			"name": "Update",
+			"url": "https://reqres.in/api/users/2",
+			"time": 99,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body check": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body check": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				99
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body check": true
+				}
+			]
+		},
+		{
+			"id": "46eddb79-7ca6-4c4b-aad4-137a9e146f45",
+			"name": "Delete User",
+			"url": "https://reqres.in/api/users/2",
+			"time": 98,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code is 204": true,
+				"Тело ответа пустое": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Тело ответа пустое": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				98
+			],
+			"allTests": [
+				{
+					"Status code is 204": true,
+					"Тело ответа пустое": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 666,
+	"collection": {
+		"requests": [
+			{
+				"id": "88e19aa7-0ec9-4875-a744-098ab23ee42e",
+				"method": "POST"
+			},
+			{
+				"id": "dcdce9f4-a95f-4bcc-b127-f86c386ffdc2",
+				"method": "GET"
+			},
+			{
+				"id": "0ad4d187-2e3f-4c0f-a512-f292a6825373",
+				"method": "POST"
+			},
+			{
+				"id": "187e6154-78d8-4dda-958c-cab462aa1f1e",
+				"method": "PUT"
+			},
+			{
+				"id": "46eddb79-7ca6-4c4b-aad4-137a9e146f45",
+				"method": "DELETE"
+			}
+		]
+	}
+}
